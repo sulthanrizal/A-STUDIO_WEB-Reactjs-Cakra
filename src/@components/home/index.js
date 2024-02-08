@@ -1,9 +1,10 @@
 import { Box, Flex, Link, Text } from "@chakra-ui/react"
 
 
+
 const Home = () => {
     return (
-        <Box className="home-container">
+        <Box id="home" className="home-container">
             <Flex className="row-container">
                 <Box className="row-1">
                     <Text>A Digital Product Agency</Text>
