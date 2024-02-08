@@ -8,21 +8,30 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 9999;
+    justify-content: space-between;
+    padding: 0 24px;
 
     img {
         margin-top: 20px;
-        margin-left: 20px;
         height: 21px;
     }
 
     .title-header {
-        margin-left: 38%;
+        cursor: pointer;
 
-        p {
+        a {
             padding: 20px 20px 20px 40px;
+        }
+
+        a:hover {
+            transition: 0.5s;
+            transform: translateY(-10px);
         }
     }
 }
+
+// ----------css HOME----------
 
 .home-container {
     height: 100vh;
@@ -55,7 +64,7 @@
             a {
                 background-color: #2539ed;
                 border-radius: 30px;
-                margin-top: 20px;
+                margin-top: 29px;
                 padding: 15px 40px;
                 font-size: 20px;
                 color: white;
@@ -93,6 +102,443 @@
                 padding-left: 0;
                 display: block;
                 // position: absolute;
+            }
+        }
+    }
+}
+
+
+
+// ----------css SERVICE----------
+
+.container-service {
+    margin-top: 70px;
+    padding-top: 90px;
+    padding-bottom: 250px;
+
+    .content-container {
+        justify-content: space-between;
+        padding-left: 100px;
+        padding-right: 100px;
+
+        .row-1-service {
+            .row-1-p {
+                font-size: 32px;
+                font-weight: 700;
+            }
+
+            .row-2-p {
+                width: 350px;
+                font-size: 18px;
+                font-weight: 400;
+                margin-top: 10px;
+            }
+        }
+
+        .row-2-service {
+            margin-top: 40px;
+        }
+
+        .row-3-service {
+            margin-top: 30px;
+        }
+
+        .row-4-service {
+            margin-top: 35px;
+        }
+    }
+}
+
+// ----------css HELPER----------
+
+.container-helper {
+    background-image: none;
+    padding-top: 0;
+    padding-bottom: 108px;
+    margin-top: 80px;
+    padding-top: 100px;
+
+    .content-helper {
+        z-index: 1;
+        margin-left: 20px;
+        margin-right: 20px;
+
+        .colums-1-helper {
+            width: 660px;
+            margin-left: 4px;
+
+            .img-colums-1-helper {
+                margin-top: 35px;
+                margin-left: 40px
+            }
+
+            .img-colums-2-helper {
+                margin-top: 80px;
+                margin-left: 40px;
+                position: absolute;
+
+            }
+
+            .img-colums-3-helper {
+                z-index: -1;
+                margin-left: 29px;
+                position: absolute;
+                margin-top: 98px;
+            }
+
+            .content-p-colums-1 {
+                padding-left: 86px;
+                margin-top: 184px;
+                position: relative;
+
+                h1 {
+                    font-size: 32px;
+                    line-height: 36px;
+                    font-weight: 700;
+                    width: 300px;
+                }
+
+                p {
+                    width: 315px;
+                }
+            }
+        }
+
+        .colums-2-helper {
+
+            .img-1-colums-2 {
+                position: absolute;
+                z-index: -1;
+                width: 1000px;
+                height: 625px;
+            }
+
+            .content-img-colums-2 {
+                position: relative;
+                display: flex;
+                margin: 100px 100px 100px 150px;
+                width: 74%;
+                gap: 40px;
+                flex-wrap: wrap;
+
+
+
+                .card-container {
+                    box-shadow: 0 0 8px -1px #000;
+                    padding: 20px;
+                    background-color: white;
+                    width: 45%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    height: 361px;
+                    margin-top: -130px;
+                    margin-bottom: 130px;
+                    border-radius: 30px;
+
+                    .img-content-last {
+                        position: absolute;
+                        z-index: -1;
+                        margin-top: 281px;
+                        margin-left: 300px;
+                    }
+
+                    h1 {
+                        font-size: 24px;
+                        line-height: 30px;
+                        text-align: center;
+                        font-weight: bold;
+                        width: 258px;
+                        margin-top: 5px;
+                        margin-bottom: 5px;
+                    }
+
+                    p {
+                        max-width: 245px;
+                        text-align: center;
+
+                    }
+
+                    .img-content {
+                        margin-top: 45px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 118px;
+                        height: 109px;
+                        border-radius: 20px;
+                    }
+                }
+
+                .content {
+                    margin-top: -195px;
+                }
+
+
+
+
+            }
+        }
+    }
+}
+
+
+
+// ----------css PROJECT----------
+
+.container-project {
+    padding: 100px 0px 100px 100px;
+    margin-top: 250px;
+
+    .container-content-project {
+        justify-content: center;
+        display: flex;
+        margin: 0px 10px 0px 10px;
+
+        .header-content-project {
+            display: flex;
+
+            .content-project-1 {
+                img:first-child {
+                    z-index: -1;
+                    height: 100px;
+                    position: absolute;
+                    left: 375px;
+                    right: 0%;
+                    top: 62.7%;
+                }
+
+                img:last-child {
+                    display: inline-block;
+                }
+            }
+
+            .content-project-2 {
+                position: relative;
+                z-index: 1;
+                padding-top: 110px;
+                padding-left: 50px;
+
+                img {
+                    z-index: -1;
+                    width: 178px;
+                    height: 150px;
+                    position: absolute;
+                    top: 20%;
+                    bottom: 0%;
+                    left: 4%;
+                }
+
+                h1 {
+                    margin-top: 20px;
+                    font-size: 32px;
+                    line-height: 36px;
+                    font-weight: bold;
+                    width: 400px;
+                }
+
+                p {
+                    width: 500px;
+                }
+            }
+        }
+    }
+}
+
+// ----------css BLOG----------
+
+.container-blog {
+    padding: 220px 0px 220px 0px;
+
+    .header-content-blog {
+        text-align: center;
+
+        h2 {
+            font-size: 40px;
+            font-weight: bold;
+            line-height: 36px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+    }
+
+    .body-content-blog {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 35px;
+
+        .body-content-1 {
+            img {
+                height: 410px;
+                width: 400px;
+            }
+        }
+
+        .body-content-2 {
+            margin-left: 90px;
+            padding-top: 80px;
+
+            h3 {
+                margin-top: 20px;
+                font-size: 24px;
+                line-height: 30px;
+                font-weight: bold;
+            }
+
+            p {
+                width: 300px;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 24px;
+                margin-top: 5px;
+            }
+
+            .circle {
+                border: none;
+                width: 15px;
+                height: 15px;
+                border-radius: 10px;
+                margin-right: 22px;
+                margin-top: 46px;
+                margin-bottom: 5px;
+                background-color: rgba(34, 34, 34, .4);
+            }
+
+            .circle:active {
+                background-color: black;
+            }
+
+            img {
+                margin-left: 37px;
+            }
+        }
+
+        .body-content-3 {
+            img {
+                margin: 34px 0px 0px 163px;
+                ;
+            }
+        }
+    }
+}
+
+
+// ----------css SUBSCRIBE----------
+.container-subscribe {
+    padding: 220px 50px 0px 50px;
+
+
+    .content-subscribe {
+        background-color: #c0dbfb;
+        height: 300px;
+        border-radius: 70px;
+
+        .content-1-header {
+            margin-top: 140px;
+
+            h1 {
+                font-size: 32px;
+                line-height: 36px;
+                font-weight: bold;
+                margin-left: 220px
+            }
+
+            p {
+                margin-left: 220px;
+                width: 450px;
+            }
+        }
+
+        .content-2-header {
+
+
+            img {
+                position: absolute;
+                right: 4.4%;
+                height: 300px;
+            }
+        }
+
+        .content-input {
+            margin-top: 135px;
+            position: relative;
+            margin-left: 40px;
+
+            input {
+                position: absolute;
+                width: 400px;
+                height: 38px;
+                padding: 30px 12px;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+                border-radius: 30px;
+            }
+
+            p {
+                position: relative;
+                margin-left: 244px;
+                background: blue;
+                border-radius: 60px;
+                margin-top: 3px;
+                color: white;
+                text-align: center;
+                padding: 15px;
+                width: 150px;
+            }
+        }
+    }
+
+    // -----------footer subscribe----------
+
+    .footer-container-subscribe {
+        margin-top: 200px;
+        margin-bottom: 200px;
+
+        .footer-content {
+
+            .footer-content-1 {
+                margin-right: 75px;
+
+                h3 {
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin-bottom: 10px;
+
+                    span {
+                        font-weight: 500;
+                    }
+                }
+
+                p {
+                    max-height: 110px;
+                    max-width: 270px;
+                    line-height: 20px;
+                }
+
+                .img-footer-subscribe {
+                    display: flex;
+                    margin-top: 67px;
+
+                    .img-footer {
+                        margin-right: 15px;
+                    }
+                }
+            }
+
+            .footer-content-2 {
+                margin-right: 75px;
+
+                h3 {
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin-bottom: 9px;
+                }
+
+                p {
+                    line-height: 20px;
+                }
             }
         }
     }
