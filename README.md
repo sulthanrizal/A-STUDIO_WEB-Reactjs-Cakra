@@ -1,4 +1,24 @@
+THIS IS PROJECT PRACTICE TO CREATE A DISPLAY USE REACT and CAKRA
+
+this display components HOME : 
 ![alt text](https://github.com/sulthanrizal/Reactjs-Cakra/blob/main/src/images/img-components-home.png?raw=true)
+
+this display components SERVICE: 
+![alt text](https://github.com/sulthanrizal/Reactjs-Cakra/blob/main/src/images/img-components-service.png?raw=true)
+
+this display components HELPER: 
+![alt text](https://github.com/sulthanrizal/Reactjs-Cakra/blob/main/src/images/img-components-helper.png?raw=true)
+
+this display components PROJECT: 
+![alt text](https://github.com/sulthanrizal/Reactjs-Cakra/blob/main/src/images/img-components-project.png?raw=true)
+
+this display components BLOG: 
+![alt text](https://github.com/sulthanrizal/Reactjs-Cakra/blob/main/src/images/img-components-blog.png?raw=true)
+
+this display components SUBSCRIBE: 
+![alt text](https://github.com/sulthanrizal/Reactjs-Cakra/blob/main/src/images/img-components-subscribe.png?raw=true)
+
+
 
 # Getting Started with Create React App
 
