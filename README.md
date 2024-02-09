@@ -18,6 +18,9 @@ this display components BLOG:
 this display components SUBSCRIBE: 
 ![alt text](https://github.com/sulthanrizal/Reactjs-Cakra/blob/main/src/images/img-components-subscribe.png?raw=true)
 
+this is display footer :
+![alt text](https://github.com/sulthanrizal/Reactjs-Cakra/blob/main/src/images/Screen%20Shot%202024-02-09%20at%2011.14.15.png?raw=true)
+
 
 
 # Getting Started with Create React App
