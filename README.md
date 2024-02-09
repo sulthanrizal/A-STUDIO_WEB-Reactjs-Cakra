@@ -1,3 +1,5 @@
+![alt text](https://github.com/sulthanrizal/Reactjs-Cakra/blob/main/src/images/img-components-home.png?raw=true)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
