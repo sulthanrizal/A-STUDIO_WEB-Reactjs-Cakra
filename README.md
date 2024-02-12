@@ -1,4 +1,4 @@
-THIS IS PROJECT PRACTICE TO CREATE A DISPLAY USE REACT and CAKRA
+THIS IS PROJECT PRACTICE TO CREATE A A-STUDIO_WEB USE REACT and CAKRA
 
 this display components HOME : 
 ![alt text](https://github.com/sulthanrizal/Reactjs-Cakra/blob/main/src/images/img-components-home.png?raw=true)
